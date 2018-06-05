@@ -15,11 +15,11 @@ package junit_showing_improvement;
 //This is the class this I am testing
 public class Problem_1_setWarnings {
 	
-	private boolean  breaks; 
-	private boolean  redLight;
-	private boolean  yellowLight;
-	private boolean  greenLight;
-	private boolean  buzzer;
+	private Boolean  breaks; 
+	private Boolean  redLight;
+	private Boolean  yellowLight;
+	private Boolean  greenLight;
+	private Boolean  buzzer;
 	
 	public void setWarnings(Double distance) {
 		
@@ -51,43 +51,43 @@ public class Problem_1_setWarnings {
 		}
 	}
 
-	public boolean isBreaks() {
+	public Boolean isBreaks() {
 		return breaks;
 	}
 
-	public void setBreaks(boolean breaks) {
+	public void setBreaks(Boolean breaks) {
 		this.breaks = breaks;
 	}
 
-	public boolean isRedLight() {
+	public Boolean isRedLight() {
 		return redLight;
 	}
 
-	public void setRedLight(boolean redLight) {
+	public void setRedLight(Boolean redLight) {
 		this.redLight = redLight;
 	}
 
-	public boolean isYellowLight() {
+	public Boolean isYellowLight() {
 		return yellowLight;
 	}
 
-	public void setYellowLight(boolean yellowLight) {
+	public void setYellowLight(Boolean yellowLight) {
 		this.yellowLight = yellowLight;
 	}
 
-	public boolean isGreenLight() {
+	public Boolean isGreenLight() {
 		return greenLight;
 	}
 
-	public void setGreenLight(boolean greenLight) {
+	public void setGreenLight(Boolean greenLight) {
 		this.greenLight = greenLight;
 	}
 
-	public boolean isBuzzer() {
+	public Boolean isBuzzer() {
 		return buzzer;
 	}
 
-	public void setBuzzer(boolean buzzer) {
+	public void setBuzzer(Boolean buzzer) {
 		this.buzzer = buzzer;
 	}
 	
